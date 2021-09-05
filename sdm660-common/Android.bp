@@ -5,6 +5,13 @@
 soong_namespace {
 }
 
+dex_import {
+	name: "audiosphere",
+	owner: "asus",
+	jars: ["proprietary/system_ext/framework/audiosphere.jar"],
+	system_ext_specific: true,
+}
+
 android_app_import {
 	name: "CneApp",
 	owner: "asus",
